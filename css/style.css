@@ -72,6 +72,11 @@
     width: 100%
 }
 
+.card:hover {
+    transform: translate(2px, 2px);
+}
+
+
 .studant-name {
     position: absolute;
     left: 0;
@@ -116,6 +121,10 @@
 .icons {
     color: white;
     text-align: center;
+}
+
+.icons:hover {
+    transform: translate(2px, 2px);
 }
 
 .icons i {
