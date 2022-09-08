@@ -17,6 +17,10 @@
     color: red;
 }
 
+.color-green {
+    color: green;
+}
+
  /* main  */
 .main-content {
     width: 100%;
@@ -117,6 +121,10 @@
     width: 7%;
     height: 100%;
     background-color: #4a4a4a;
+}
+
+.end-call:hover .color-red{
+    transform: translate(-2px, -2px);
 }
 
 .icons {
