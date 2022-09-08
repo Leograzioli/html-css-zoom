@@ -3,3 +3,131 @@
     padding: 0;
     box-sizing: border-box;
 }
+ /* comomn */
+
+ img {
+    max-width: 100%;
+}
+
+.mg-right {
+    margin-right: 15px;
+}
+
+.color-red {
+    color: red;
+}
+
+ /* main  */
+.main-content {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: relative;;
+    height: calc(100% - 80px);
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.icon-top {
+    position: absolute;
+    right: 2px;
+    top: 10px;
+    color: white;
+}
+
+.icon-top .first-icon {
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.icon-top .second-icon {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.row {
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap ;
+    column-gap: 5px;
+    row-gap: 15px;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    background-color: blue;
+    width: calc(100% / 7 - 5px);
+    height: 140px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%
+}
+
+.studant-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.action-bar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #222222;
+}
+
+.first-action {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-left: 15px;
+}
+
+.second-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.end-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 100%;
+    background-color: #4a4a4a;
+}
+
+.icons {
+    color: white;
+    text-align: center;
+}
+
+.icons i {
+    font-size: 2rem;
+}
+
+.icons p {
+    margin-top: 5px;
+}
+
+.small-icon i {
+    font-size: 0.8rem;
+    color: white;
+    padding: 0 10px;
+}
