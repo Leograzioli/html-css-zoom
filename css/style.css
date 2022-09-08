@@ -27,7 +27,7 @@
     position: relative;;
     height: calc(100% - 80px);
     background-color: black;
-    overflow-y: scroll;
+    overflow-y: auto;
 
 }
 
@@ -63,7 +63,6 @@
 .card {
     position: relative;
     background-color: blue;
-    width: calc(100% / 7 - 5px);
     min-width: calc(100% / 7 - 5px);
     height: 140px;
     min-height: 140px;
