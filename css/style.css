@@ -103,7 +103,7 @@
 .first-action {
     display: flex;
     align-items: center;
-    width: 20%;
+    width: 15%;
     margin-left: 15px;
 }
 
@@ -111,7 +111,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 40%;
 }
 
 .end-call {
@@ -132,7 +132,18 @@
     text-align: center;
 }
 
-.icons:hover {
+li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
     transform: translate(2px, 2px);
 }
 
@@ -144,7 +155,11 @@
     margin-top: 5px;
 }
 
-.small-icon i {
+.li p {
+    padding-top: 5px;
+}
+
+.small-icon {
     font-size: 0.8rem;
     color: white;
     padding: 0 10px;
