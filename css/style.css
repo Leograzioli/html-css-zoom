@@ -31,7 +31,7 @@
     position: relative;;
     height: calc(100% - 80px);
     background-color: black;
-    overflow-y: auto;
+    overflow: auto;
 
 }
 
@@ -67,9 +67,11 @@
 .card {
     position: relative;
     background-color: blue;
-    min-width: calc(100% / 7 - 5px);
+    width: calc(100% / 7 - 5px);
+    min-width: 240px;
     height: 140px;
     min-height: 140px;
+
 }
 
 .card img {
